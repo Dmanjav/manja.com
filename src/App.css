@@ -1,0 +1,16 @@
+:root {
+  --white: #ffffff;
+  --grey: #e0e1dd;
+  --blue-1: #778da9;
+  --blue-2: #415a77;
+  --blue-3: #1b263b;
+  --blue-4: #0d1b2a;
+  --black: #000000;
+}
+
+.App {
+  background-color: white;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+}

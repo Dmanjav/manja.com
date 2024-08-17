@@ -1,0 +1,17 @@
+
+
+.basic-button {
+  background-color: var(--blue-4) !important;
+  color: #e0e1dd !important;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px !important;
+  cursor: pointer;
+  transition: 0.3s ease-in-out !important;
+}
+
+.basic-button:hover {
+  background-color: var(--blue-3) !important;
+  box-shadow: 0 2px 5px 0 var(--grey) !important;
+  transform: translate(0px, 2px);
+}
