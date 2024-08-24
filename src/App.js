@@ -1,14 +1,16 @@
 import React from 'react';
-import BasicButton from './components/button';
 import './App.css';
-import Navbar from './components/navbar';
+import LayoutNavFoot from './layouts/layoutnavfoot';
 
 function App() {
     return (
-        <div>
-            <Navbar />
+        <div className='App'>
+            {/* <Navbar />
             <h1><center>React 18 Alpha</center></h1>
-            <BasicButton>Click me</BasicButton>
+            <BasicButton>Click me</BasicButton> */}
+            <LayoutNavFoot>
+                <h1>React 18 Alpha</h1>
+            </LayoutNavFoot>
         </div>
     );
 }

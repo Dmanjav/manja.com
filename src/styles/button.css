@@ -6,11 +6,13 @@
   border-radius: 15px !important;
   cursor: pointer;
   transition: 0.3s ease-in-out !important;
+  margin: 5px !important;
+
 }
 
 .basic-button:hover {
-  background-color: var(--blue-1) !important;
-  box-shadow: 0 2px 5px 0 var(--white) !important;
+  background-color: var(--blue-15) !important;
+  box-shadow: 0 2px 10px 0 var(--blue-25) !important;
   transform: translate(0px, 2px);
 }
 

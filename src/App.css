@@ -2,8 +2,11 @@
   --white: #ffffff;
   --grey: #e0e1dd;
   --blue-1: #778da9;
+  --blue-15: #607d96;
   --blue-2: #415a77;
+  --blue-25: #2e4a62;
   --blue-3: #1b263b;
+  --blue-35: #15203b;
   --blue-4: #0d1b2a;
   --black: #000000;
 }
@@ -12,4 +15,9 @@
   background-color: white;
   font-family: "Poppins", sans-serif;
   height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
