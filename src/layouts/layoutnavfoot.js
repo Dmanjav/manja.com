@@ -1,13 +1,12 @@
 import Navbar from "../components/navbar";
+import Footer from "../components/footer";
 
 const LayoutNavFoot = ({ children }) => {
   return (
     <div className="layout">
       <Navbar />
       {children}
-      <footer>
-        <p>Footer</p>
-      </footer>
+      <Footer />
     </div>
   );
 }
