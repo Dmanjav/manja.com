@@ -1,13 +1,12 @@
 .basic-button {
   background-color: var(--blue-2) !important;
   color: #e0e1dd !important;
-  border: none;
-  padding: 10px 20px;
+  padding: 10px 20px !important;
   border-radius: 15px !important;
   cursor: pointer;
   transition: 0.3s ease-in-out !important;
   margin: 5px !important;
-
+  width: 100%;
 }
 
 .basic-button:hover {
