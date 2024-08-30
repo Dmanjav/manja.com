@@ -11,6 +11,10 @@
   --black: #000000;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
   background-color: white;
   font-family: "Poppins", sans-serif;
