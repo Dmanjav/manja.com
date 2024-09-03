@@ -19,6 +19,7 @@ html {
   background-color: white;
   font-family: "Poppins", sans-serif;
   height: 100%;
+  overflow-x: hidden;
 }
 
 body {

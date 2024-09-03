@@ -11,9 +11,10 @@ function App() {
                 <h1>React 18 Alpha</h1>
                 {
                     manjaBio.map((item) => {
-                        // console.log(item);
                         return (
-                            <Cards key={item.id} title={item.title} content={item.content} />
+                            <Cards key={item.id} title={item.title} content={item.content}>
+                                <img src={item.image} alt={item.title} />
+                            </Cards>
                         );
                     })
                 }
